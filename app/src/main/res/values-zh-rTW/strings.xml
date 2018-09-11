@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">極速VPN</string>
+    <string name="menu_item_switch">代理</string>
+    <string name="menu_item_toggle_global">开/关全局模式</string>
+    <string name="menu_item_about">关于</string>
+    <string name="menu_item_exit">退出</string>
+    <string name="config_url">配置地址</string>
+    <string name="config_not_set_value">未设置</string>
+    <string name="config_url_scan">扫描二维码</string>
+    <string name="config_url_manual">手动输入</string>
+    <string name="config_url_scan_hint">扫描配置地址的二维码</string>
+    <string name="select_app">选择使用代理的软件</string>
+    <string name="select_app_detail">未选择</string>
+    <string name="proxied_apps">使用代理的软件</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_more">更多&#8230;</string>
+    <string name="vpn_connected_status">已连接</string>
+    <string name="vpn_disconnected_status">已断开</string>
+    <string name="about_info">Shadowsocks android 由dawei开发维护,可以在任意Android 4.0+上使用，无需ROOT权限。它是基于SmartProxy与Shadowsocks-Java改装。</string>
+    <string name="exit_confirm_info">这将会断开VPN连接，确定要退出吗？</string>
+    <string name="err_invalid_url">无效的配置地址</string>
+    <string name="config_url_hint">ss://method:password@host:port</string>
+    <string name="pass_digits">abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLIMNOPQRSTUVWXYZ?=.</string>
+
+    <string name="bind_email">绑定邮箱</string>
+    <string name="email">邮箱</string>
+    <string name="pass">密码</string>
+    <string name="change_pass">修改密码</string>
+    <string name="show">显示</string>
+    <string name="new_pass">新密码</string>
+    <string name="config_pass">确认密码</string>
+    <string name="reset_password">重置密码</string>
+    <string name="go_register">注册>></string>
+    <string name="two_pass">再次输入密码</string>
+    <string name="switch_account">切换账号</string>
+    <string name="help">帮助</string>
+    <string name="contact_us">联系我们</string>
+    <string name="score">为我们打分</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="service_terms">服务条款</string>
+    <string name="account">账号</string>
+    <string name="point">温馨提示：一个账号只能绑定2个设备</string>
+    <string name="login_register">登录 / 注册</string>
+    <string name="one_login">首次登录赠送时间</string>
+    <string name="or">或</string>
+    <string name="tourist_mode">游客模式</string>
+    <string name="old_pass">旧密码：</string>
+    <string name="common_problem">常见问题</string>
+    <string name="problem1">为什么连接不上？</string>
+    <string name="answer1">1.请检查当前手机网络是否畅通，无线信号是否稳定，可尝试切换WIFI和4G信号再链接</string>
+    <string name="answer2">2.不同网络运营商，所适合的服务线路稳定性和速度有差异，可以断开VPN，尝试重新连接。</string>
+    <string name="answer3">3.您可以重启自己的WIFI或4G，然后尝试重新连接。</string>
+    <string name="answer4">4.建议宽度大于4M以上，否则速度可能不理想</string>
+    <string name="problem2">需要扣去手机流量吗？</string>
+    <string name="answer21">VPN只是代理，如果用3G/4G上VPN,流量费有运营商收取，与VPN无关。</string>
+    <string name="problem3">VPN能突破家里的宽带速度吗？</string>
+    <string name="answer31">不能，VPN相当于一个国外代理，速度不可能突破家里宽带速度。</string>
+    <string name="problem4">如何修改账号</string>
+    <string name="answer41">点击主界面左下角“我的”进入用户中心，点击绑定邮箱，即可根据提示修改账号。</string>
+    <string name="problem5">如何修改密码</string>
+    <string name="answer51">点击主界面左下角“我的”进入用户中心，点击修改密码，即可根据提示修改密码。只有账号已经修改成为邮箱后才能修改密码</string>
+
+    <string name="title_country">国  家</string>
+    <string name="title_help">帮  助</string>
+    <string name="title_login">登  录</string>
+    <string name="title_register">注  册</string>
+    <string name="title_set">个人设置</string>
+    <string name="title_web">网页跳转</string>
+
+    <string name="dialog_point">提示</string>
+    <string name="dialog_expire_vip">您的会员已到期</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_experience">立即体验</string>
+
+    <string name="dialog_new_version">发现新的版本</string>
+    <string name="dialog_new_version2">最新版本</string>
+    <string name="dialog_version_content">更新内容</string>
+    <string name="dialog_now_version">立即更新</string>
+
+
+    <string name="FILD">网络请求出错</string>
+    <string name="FILD_NULL">未知网络错误</string>
+    <string name="HOST_NULL">域名解析错误</string>
+    <string name="LOADING">正在加载...</string>
+    <string name="EAMIL_NULL">请输入邮箱</string>
+    <string name="PASS_NULL">请输入密码</string>
+    <string name="ACCOUNT_NULL">请输入账号</string>
+    <string name="NEW_PASS_FORMATEL">新密码格式不对</string>
+    <string name="ENTER_NEW_PASS">请输入新密码</string>
+    <string name="PASS_FORMATEL">输入密码格式不对</string>
+    <string name="ENTER__CONFIRM_PASS">请输入确认密码</string>
+    <string name="TWO_NO_IDENTICAL">二次输入密码不一致</string>
+    <string name="Successfully_modified">修改成功</string>
+    <string name="Successfully_login">登录成功</string>
+    <string name="Press_again">再按一次退出极速</string>
+    <string name="Storage">存储空间权限</string>
+    <string name="Device_Information">设备信息权限</string>
+    <string name="Device_Information_Detail">我们需要设备信息以方便您正常使用</string>
+    <string name="Storage_Detail">我们需要读写存储卡权限以方便我们临时保存一些数据</string>
+    <string name="Google_Store">请检查是否安装Google应用市场</string>
+    <string name="QQ">请检查下是否安装QQ或者是否是最新版</string>
+    <string name="UPDATE_FAIL">更新失败</string>
+    <string name="DOWNLOADING">正在下载</string>
+    <string name="PLEASE_WAIT">请稍候...</string>
+    <string name="DIALOG_TIPS">提示</string>
+    <string name="DIALOG_NO_NET">检测到你还没开启网络，请开启</string>
+    <string name="DIALOG_CANCEL">取消</string>
+    <string name="DIALOG_PLEASE_OPEN_NET">请开启网络，否则会影响您的正常使用！</string>
+    <string name="DIALOG_OPEN_NET">开启</string>
+    <string name="DIALOG_VERSION_CONTENT">更稳定，更快速，更高效！</string>
+    <string name="PRIVACY_SERVICE">隐私服务</string>
+    <string name="TERMS_SERVICE">服务条款</string>
+    <string name="SSL_VER">ssl证书验证失败</string>
+    <string name="GO_ON">继续</string>
+    <string name="CANCEL">取消</string>
+    <string name="ZHIFUBAO_FAIL">您所打开的第三方App未安装</string>
+
+</resources>

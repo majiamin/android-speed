@@ -1,0 +1,44 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 允许使用transitions -->
+        <item name="android:windowContentTransitions">true</item>
+        <!--是否覆盖执行，其实可以理解成是否同步执行还是顺序执行-->
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="StyledScrollerTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="DialogAlertStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#f2a670</item>
+        <item name="android:textColorPrimary">#565656</item>
+        <item name="android:background">#ffffff</item>
+    </style>
+    <!--Activity当做对话框使用的属性-->
+    <style name="Transparent" >
+        <item name="android:windowIsTranslucent">true</item>//此对话框的背景
+        <item name="android:windowBackground">@android:color/transparent</item>//对话框是否透明
+        <item name="android:windowContentOverlay">@null</item>//对话框是否有遮盖
+        <item name="android:windowNoTitle">true</item>//对话框无标题
+        <item name="android:windowIsFloating">true</item> //对话框是否浮动
+        <item name="android:backgroundDimEnabled">true</item>//是否允许对话框的背景变暗
+        <item name="android:windowCloseOnTouchOutside">false</item>// 点击空白部分activity不消失
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowFrame">@null</item>//Dialog的windowFrame框为无
+    </style>
+    <style name="common_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/common_cheat_board</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <gradient
+        android:centerX="0.5"
+        android:centerY="0.5"
+        android:endColor="#F4F4F4"
+        android:gradientRadius="205"
+        android:startColor="#000000"
+        android:type="radial" />
+
+    <stroke
+        android:width="5px"
+        android:color="#F4F4F4" />
+    <!--type有三类，linear是线性，radial是由中心向外渐变的，sweep是梯形的。-->
+    <!--[shape] 根标签，声明一个shape-->
+    <!--[gradient] 声明该shape的属性-渐变色,除此外还有其他属性如corners、stroke、size等等-->
+    <!--[android:angle]渐变色的角度，举例来说，0代表从上至下颜色渐变；45代表从左至右颜色渐变；90代表从下至上颜色渐变…-->
+    <!--[android:startColor&android:endColor] 很好理解，渐变开始的颜色和渐变结束时的颜色（从什么颜色变到什么颜色）-->
+</shape>

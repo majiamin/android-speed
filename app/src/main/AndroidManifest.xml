@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.speed.faster">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--设备ID-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.speed.faster.activity.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ShowDialogActivity"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name=".activity.DialogAccountActivity"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name=".activity.HelpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CountryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.BindEmailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WebActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.StartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SwitchAccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ChangPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.VipActivity"
+            android:screenOrientation="portrait">
+            <!--需要添加下面的intent-filter配置-->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="fengye" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.HostActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.speed.faster.activity.AppManager"
+            android:excludeFromRecents="true"
+            android:label="@string/proxied_apps"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.speed.faster.core.LocalVpnService"
+            android:permission="android.permission.BIND_VPN_SERVICE">
+            <intent-filter>
+                <action android:name="android.net.VpnService" />
+            </intent-filter>
+        </service>
+        <!--<receiver
+            android:name=".receiver.MyReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.speed.action.broadcast" />
+            </intent-filter>
+        </receiver>-->
+        <!-- 定义FileProvider 7.0版本更新 -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.speed.faster.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+    </application>
+</manifest>
